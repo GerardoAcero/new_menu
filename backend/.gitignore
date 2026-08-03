@@ -1,0 +1,22 @@
+# Entorno virtual
+.venv/
+
+# Variables de entorno (nunca subir secretos)
+.env
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+
+# Bases de datos locales
+*.db
+*.sqlite3
+
+# Alembic puede generar archivos de entorno si se usa autogenerate
+# .env.py está versionado, no ignorar
+
+# Logs y builds
+*.log
+.eggs/
+dist/
+build/
