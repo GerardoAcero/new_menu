@@ -1,9 +1,3 @@
-"""Arranca el servidor de desarrollo con el event loop correcto para Windows.
-
-Uso:
-    .venv\\Scripts\\python.exe run.py
-"""
-
 import asyncio
 import selectors
 import sys

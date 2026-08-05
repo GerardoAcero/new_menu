@@ -1,11 +1,3 @@
-"""Crea las tablas en la base de datos.
-
-Uso:
-    .venv\\Scripts\\python.exe -m scripts.init_db
-
-Nota: para entornos de producción se recomienda usar Alembic para migraciones.
-"""
-
 import asyncio
 import selectors
 import sys
